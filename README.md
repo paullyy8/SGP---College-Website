@@ -1,6 +1,6 @@
 # Siliguri Government Polytechnic College Website
 
-Welcome to the GitHub repository for the Siliguri Government Polytechnic College Website. This project was developed as part of a <br> second-semester assignment and aims to provide comprehensive information about the college. All source code, images, and assets <br> are the intellectual property of Amit Paul, a sophomore at Siliguri Government Polytechnic.
+Welcome to the GitHub repository for the Siliguri Government Polytechnic College Website. This project was developed as part of a second-semester assignment and aims to provide comprehensive information about the college. All source code, images, and assets are the intellectual property of Amit Paul, a sophomore at Siliguri Government Polytechnic.
 
 ## Table of Contents
 - [Introduction](#introduction)
