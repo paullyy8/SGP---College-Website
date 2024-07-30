@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background: linear-gradient(#F6FFDE,#E3F2C1);
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #070F2B;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background: #6C7A89;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #508D4E;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #6C7A89, #354649);
+    cursor: pointer;
+}
+.contact-left  button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 200px;
+    cursor: pointer;
+}
+@media (min-width: 801px) {
+    .contact-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact-right{
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-right{
+        display: none;
+    }
+    .contact-left-title h2{
+        font-size: 32px;
+    }
+    .contact-left-title hr{
+        width: 80px;
+        height: 4px;
+    }
+    .contact-inputs{
+        height: 45px;
+    }
+    .contact-left textarea{
+        height: 120px;
+    }
+    .contact-left button{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .contact-left  button img{
+        height: 12px;
+    }
+}
